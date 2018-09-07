@@ -1,0 +1,58 @@
+{
+	"name": "trweet",
+	"file" : "trweet.py",
+
+	"tables": [
+			{
+				"sources_table_name": null
+			},
+			{
+				"inquiries_table_name": "inquiries_trweet_serge"
+			},
+			{
+				"results_table_name": "results_trweet_serge"
+			},
+			{
+				"optionnal_tables_names": [
+					"credentials_trweet_serge"
+				]
+			}
+	],
+
+	"label": [
+			{
+				"content": [
+					{
+						"EN": "trweet"
+					},
+					{
+						"FR": "trweet"
+					},
+					{
+						"ES": "trweet"
+					},
+					{
+						"DE": "trweet"
+					},
+					{
+						"CN": null
+					}
+				]
+			},
+			{
+				"color": "#00aced"
+			},
+			{
+				"text_color": "#ffffff"
+			}
+	],
+
+	"dependencies": [
+		"re",
+		"time",
+		"tweepy",
+		"logging",
+		"hashlib",
+		"datetime"
+	]
+}
