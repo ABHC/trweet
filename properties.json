@@ -1,6 +1,10 @@
 {
 	"name": "trweet",
-	"file" : "trweet.py",
+	"main file" : "trweet.py",
+
+	"additional files" : [
+		null
+	],
 
 	"tables": [
 			{
